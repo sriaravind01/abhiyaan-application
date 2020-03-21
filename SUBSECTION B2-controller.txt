@@ -1,0 +1,15 @@
+The various objectives concerned with a control system i feel are as follows :
+
+1)Maintaining the proper orientation of the car throughout the motion. For example: Parking control can be classified under this.
+2)Following the desired path or trajectory smoothly to reach its destination.
+
+Ways to solve these problems :
+
+The controller may have a motor subsystem to monitor and control the throtle,braking and steering torque.
+This includes the dynamics of each individual tyre.
+Positioning subsystem may consist of cameras,GPS and distance sensors.This helps to pin point the cars's location with respect to its surroundings.
+The cameras and sensors help to give a list of objects detected around the vehicle and create a 3-D world simulation.
+The camera can also have an image processing unit. 
+This unit uses certain algorithms.They can be used for lane marking,detection of road ends,objects(like nearby vehicle)detection,traffic light detections.
+A central subsystem can act as the brain of control system.This records all the datta from both motor and positioning systems and analyze it.
+It predicts the best suitable action and gives commands.
